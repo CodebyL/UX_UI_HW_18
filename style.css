@@ -1,3 +1,22 @@
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(251, 168, 168);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 body {
   margin: 0;
 }
@@ -29,7 +48,7 @@ header p {
 }
 button {
   padding: 15px;
-  background-color: #373738;
+  background-color: #d97c7c;
   color: white;
   font-size: 15px;
   border-radius: 4px;
@@ -66,7 +85,7 @@ footer li {
 .myWork {
   padding: 60px 30px;
   padding-top: 0;
-  background-color: #EBEBEB;
+  background-color: #ffdada;
 }
 .workGrid {
   display: grid;
